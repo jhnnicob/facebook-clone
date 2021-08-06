@@ -46,7 +46,7 @@ function Header() {
                 </div>
             </div>
             <div className="header__right">
-                <UserInfo user={user}/>
+                <UserInfo/>
                 <IconButton>
                     <AppsOutlinedIcon />
                 </IconButton>

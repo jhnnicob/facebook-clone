@@ -1,0 +1,15 @@
+.userInfo {
+  display: flex;
+  align-items: center;
+}
+
+.userInfo > .avatar {
+  width: 28px;
+  height: 28px;
+}
+
+.userInfo > h4 {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #646566;
+}

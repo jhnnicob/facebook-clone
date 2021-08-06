@@ -1,0 +1,13 @@
+.sidebar {
+  padding: 20px 10px;
+  width: 15%;
+}
+
+.sidebar__head {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sidebar__head:hover {
+  background-color: #e8e9eb;
+}
