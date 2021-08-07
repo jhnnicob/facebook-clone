@@ -1,0 +1,56 @@
+.fiendRequestList {
+  margin-top: 30px;
+}
+
+.fiendRequestList__body {
+  background-color: #f0f2f5;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.fiendRequestList__header {
+  display: flex;
+  justify-content: space-between;
+  color: #646566;
+}
+
+.fiendRequestList__header > span {
+  color: #1877f2;
+  font-size: small;
+}
+
+.fiendRequestList__body > p {
+  font-size: small;
+  text-align: right;
+}
+
+.fiendRequestList__body__middle {
+  display: flex;
+}
+
+.fiendRequestList__info {
+  margin-left: 10px;
+}
+
+.fiendRequestList__details > span {
+  font-size: small;
+}
+
+.fiendRequestList__info__button {
+  margin-top: 10px;
+}
+
+.fiendRequestList__info__button > button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #1877f2;
+  color: white;
+  margin: 0 2px;
+  font-size: 12px;
+  border-radius: 2px;
+}
+
+.fiendRequestList__info__button > button.gray {
+  background-color: #d8dadf;
+  color: black;
+}
