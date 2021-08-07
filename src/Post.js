@@ -7,11 +7,10 @@ import NearMeIcon from '@material-ui/icons/NearMe';
 import { useStateValue } from './StateProvider';
 
 function Post({username, timestamp, message, image, profilePic}) {
-    const [{user, dispatch}] = useStateValue();
     return (
         <div className="post">
             <div className="post__top">
-                <Avatar className="post__avatar" src={user.photoURL}/>
+                <Avatar className="post__avatar" src={profilePic}/>
                 <div className="post__topInfo">
                     <h3>{username}</h3>
                     <p>{new Date(timestamp?.toDate()).toUTCString()}</p>
