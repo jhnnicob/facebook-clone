@@ -1,12 +1,12 @@
 .header {
   display: flex;
   align-items: center;
-  padding: 5px 18px;
+  padding: 20px 50px;
   justify-content: space-between;
   position: sticky;
   background-color: white;
   z-index: 100;
-  box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
+  top: 0;
 }
 
 .header__left {
