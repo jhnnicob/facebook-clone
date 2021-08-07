@@ -1,0 +1,14 @@
+.event__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.event__header > h3 {
+  color: #646566;
+}
+
+.event__header > span {
+  color: #1877f2;
+  font-size: small;
+}
