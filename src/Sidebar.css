@@ -1,6 +1,9 @@
 .sidebar {
-  padding: 20px 10px;
-  width: 15%;
+  padding: 20px 40px;
+  width: 20%;
+  background-color: white;
+  position: fixed;
+  left: 0;
 }
 
 .sidebar__head {
@@ -10,4 +13,5 @@
 
 .sidebar__head:hover {
   background-color: #e8e9eb;
+  border-radius: 10px;
 }
